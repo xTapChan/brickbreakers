@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My mobile Arkanoid clones</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="lang-en">
+    <button id="langToggle" class="lang-toggle">EN / PL</button>
+
+    <header class="main-header">
+        <h1>My Arkanoid clones for Android & iOS</h1>
+        <p class="ai-info en">These are my first applications, they are not perfect. They were written with the help of AI a long time ago just for fun.</p>
+        <p class="ai-info pl">To moje pierwsze aplikacje, nie są idealne. Zostały napisane z pomocą AI dawno temu dla zabawy.</p>
+    </header>
+
+    <div class="container">
+        <section class="segment ios-segment">
+            <img src="images/apple.png" alt="Apple Logo" class="platform-logo">
+            
+            <img src="images/ipa.jpg" alt="Brick Game Icon" class="game-icon">
+            <h2>Brick</h2>
+            
+            <a href="Brick.ipa" class="download-btn ios-btn">
+                <span class="en">Download .ipa</span>
+                <span class="pl">Pobierz .ipa</span>
+            </a>
+
+            <div class="description">
+                <p class="en">Developed on macOS Monterey via VMware as an experiment. The game features sound effects, but does not have a pause function.</p>
+                <p class="pl">Napisana na macOS Monterey w VMware jako eksperyment. Gra posiada efekty dźwiękowe, ale nie ma funkcji pauzy.</p>
+                <ul>
+                    <li><strong class="en">Tested on:</strong><strong class="pl">Testowana na:</strong> iPhone 6 (iOS 12.5.7) & iPhone 8 (iOS 16.7.11)</li>
+                </ul>
+                <p class="warning en">Note: Requires sideloading (e.g., AltStore/Sideloadly) to install.</p>
+                <p class="warning pl">Uwaga: Instalacja wymaga narzędzi do sideloadingu (np. AltStore/Sideloadly).</p>
+            </div>
+
+            <div class="gallery">
+                <img src="images/ipa/1ipa.PNG" alt="iOS Screenshot 1">
+                <img src="images/ipa/2ipa.PNG" alt="iOS Screenshot 2">
+                <img src="images/ipa/3ipa.PNG" alt="iOS Screenshot 3">
+            </div>
+        </section>
+
+        <section class="segment android-segment">
+            <img src="images/android.png" alt="Android Logo" class="platform-logo">
+
+            <img src="images/apk.jpg" alt="Brick Breaker Game Icon" class="game-icon android-icon">
+            <h2>Brick Breaker</h2>
+            
+            <a href="BrickBreaker.apk" class="download-btn android-btn">
+                <span class="en">Download .apk</span>
+                <span class="pl">Pobierz .apk</span>
+            </a>
+
+            <div class="description">
+                <p class="en">Built in Android Studio (Debug). Features sound effects and a pause function. Game speed scales with screen refresh rate (runs well at 120Hz, slightly slower at 60Hz/battery saver mode).</p>
+                <p class="pl">Napisana w Android Studio (wersja Debug). Posiada efekty dźwiękowe i funkcję pauzy. Szybkość gry zależy od odświeżania ekranu (poprawnie przy 120Hz, nieco wolniej przy 60Hz/trybie oszczędzania baterii).</p>
+                <ul>
+                    <li><strong class="en">Requirements:</strong><strong class="pl">Wymagania:</strong> Min. Android 7.0 (Nougat) - API 24</li>
+                    <li><strong class="en">Tested on:</strong><strong class="pl">Testowana na:</strong> POCO X6 5G (Android 14)</li>
+                </ul>
+            </div>
+
+            <div class="gallery">
+                <img src="images/apk/1apk.jpg" alt="Android Screenshot 1">
+                <img src="images/apk/2apk.jpg" alt="Android Screenshot 2">
+                <img src="images/apk/3apk.jpg" alt="Android Screenshot 3">
+            </div>
+        </section>
+    </div>
+
+    <footer class="main-footer">
+        <div class="contact-info">
+            <p class="en"><strong>Author:</strong> Kamil Krawczyk (aka TapChan) | <strong>Contact:</strong> <a href="mailto:xtapchan@gmail.com">xtapchan@gmail.com</a></p>
+            <p class="pl"><strong>Autor:</strong> Kamil Krawczyk (znany jako TapChan) | <strong>Kontakt:</strong> <a href="mailto:xtapchan@gmail.com">xtapchan@gmail.com</a></p>
+        </div>
+        <div class="legal-joke">
+            <p class="en">* The Apple and Android logos were meticulously hand-drawn in MS Paint for legal issues.</p>
+            <p class="pl">* Logotypy Apple i Androida zostały narysowane odręcznie w MS Paint ze względów prawnych.</p>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="expandedImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
