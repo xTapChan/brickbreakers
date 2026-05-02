@@ -2,7 +2,7 @@
 
 # 🇺🇸
 
-Welcome to my very first mobile apps project! These two games are simple Arkanoid clones created a long time ago as a fun experiment. They are far from perfect, but they hold a special place as my first applications. This repository contains the source code for both games and the responsive frontend [website](https://xtapchan.github.io/brickbreakers/) used as their download page.
+Welcome to my very first mobile apps project! These two games are simple Arkanoid clones created a long time ago as a fun experiment. They are far from perfect, but whey work and they hold a special place as my first mobile apps. This repository contains the source code for both games and the responsive frontend [website](https://xtapchan.github.io/brickbreakers/) used as their download page.
 
 ## 🎮 The Games
 
@@ -36,7 +36,7 @@ You can download the compiled `.ipa` and `.apk` files directly from the [**Relea
 
 # 🇵🇱
 
-Witaj w projekcie moich pierwszych aplikacji mobilnych! Te dwie gry to proste klony Arkanoida stworzone dawno temu jako ciekawy eksperyment. Są to moje pierwsze aplikacje, więc nie są idealne. To repozytorium zawiera kod źródłowy obu gier oraz responsywną [stronę internetową](https://xtapchan.github.io/brickbreakers/) służącą do ich pobierania.
+Witaj w projekcie moich pierwszych aplikacji mobilnych! Te dwie gry to proste klony Arkanoida stworzone dawno temu jako ciekawy eksperyment. Są to moje pierwsze apki, więc mogą nie być idealne, ale działają. To repozytorium zawiera kod źródłowy obu gier oraz responsywną [stronę internetową](https://xtapchan.github.io/brickbreakers/) służącą do ich pobierania.
 
 ## 🎮 Gry
 
